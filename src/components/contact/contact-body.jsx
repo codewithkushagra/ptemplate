@@ -48,7 +48,7 @@ export default class ContactBody extends React.PureComponent {
     loadRecaptcha.bind(this)();
 
     this.onFormSubmit = this.onFormSubmit.bind(this);
-    this.onCaptchaChange = this.onCaptchaChange.bind(this);
+    // this.onCaptchaChange = this.onCaptchaChange.bind(this);
     this.onInputValueChange = this.onInputValueChange.bind(this);
   }
 
@@ -76,15 +76,8 @@ export default class ContactBody extends React.PureComponent {
   }
   
   onFormSubmit(e) {
-    e.preventDefault();
-    this.captcha.execute();
-  }
-  
-  onCaptchaChange(value) {
-    if(value === null) {
-      return;
-    }
-
+    
+    // this.captcha.execute();
     this.setState({isFormLoading: true});
     sendToForm(
       this.state.name,
@@ -102,6 +95,14 @@ export default class ContactBody extends React.PureComponent {
         this.setState({isFormLoading: false});
       })
   }
+  
+  // onCaptchaChange(value) {
+  //   if(value === null) {
+  //     return;
+  //   }
+
+    
+  // }
 
   onInputValueChange(e) {
     this.setState({
@@ -159,7 +160,7 @@ export default class ContactBody extends React.PureComponent {
 
     return (
       <div className="pt-content-card__body pt-content-card__body__contact flex">
-      {
+      {/* {
         this.state.ReCAPTCHA && navigator.userAgent != "ReactSnap" ? 
           <this.state.ReCAPTCHA
             ref={(el) => {this.captcha = el}}
@@ -168,7 +169,7 @@ export default class ContactBody extends React.PureComponent {
             sitekey={ReCAPTCHAKey}
             onChange={this.onCaptchaChange}
           /> : null
-      }
+      } */}
 
       {
         this.state.toastify.ToastContainer ?

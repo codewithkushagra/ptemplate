@@ -122,7 +122,7 @@ const projects = [
   }
 ]
 
-const formUrl = 'http://localhost:4000'
+const formUrl = 'http://localhost:3000'
 // const ReCAPTCHAKey = '6LcBOC8UAAAAAM9YRyBp1RR-1NnwvMU8UDsR63Vu'
 // The basepath is the assets folder
 /// the file sould be imported in assets-import.js
@@ -132,6 +132,6 @@ export {
   profile,
   projects,
   formUrl,
-  ReCAPTCHAKey,
+  // ReCAPTCHAKey,
   missingProjectIcon
 }

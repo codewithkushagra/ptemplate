@@ -10,12 +10,14 @@
     "build-gz": "webpack -p --mode production --env.compress",
     "build-render": "rm -Rf dist ; npm run build && npm run pre-render",
     "pre-render": "react-snap && node scripts/chunks-scripttag-to-preload.js"
-
   },
   "license": "MIT",
   "reactSnap": {
     "source": "dist",
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
     "minifyHtml": {
       "sortClassName": false,
       "removeComments": true
