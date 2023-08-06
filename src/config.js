@@ -62,6 +62,26 @@ const profile = {
 
 const projects = [
   {
+    title: 'Backend Intern at Convin.ai',
+    img: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_9cb63377dca6779d6deed05c7cd793d5/convin-ai.png',
+    description: 'Developed, maintained and deployed major features like batch processing, custom dashboard dev, and gpt lead generation, and many more.',
+    categories: ['Python', 'Web', 'Github','Backend'],
+    sourceCodeUrl: 'https://github.com/techhub-community/csoc_platform'
+  },
+  {
+    title: 'CSOC Techhub Backend Lead',
+    img: 'https://avatars.githubusercontent.com/u/43721025?s=400&u=cc331514b4d1c4f27e96ec8e850cf3fc50c7534a&v=4',
+    description: 'Designed Infra , developed and deployed major feature and mentored over 10 people.',
+    categories: ['Python', 'Web', 'Github','Backend'],
+    sourceCodeUrl: 'https://github.com/techhub-community/csoc_platform'
+  },
+  {
+    title: 'Backend Development Intern',
+    img: 'https://media.licdn.com/dms/image/C4D0BAQGFh6DsEpXZmQ/company-logo_200_200/0/1519895241767?e=2147483647&v=beta&t=DRp6NjSd3xHwhBwxfTitumIQb41NWDy1aNkIIJIfrpQ',
+    description: 'As a member of a development team, I was instrumental in the design and implementation of a GIS solution for the UK power grid software infrastructure.',
+    categories: ['Python', 'Django', 'Web','Backend', 'GIS', 'DRF'],
+  },
+  {
     title: 'Tally Hackathon URL Shortener',
     img: 'https://www.4me.com/wp-content/uploads/2018/01/4me-icon-link.png',
     description: 'Web service to shorten links with statistics of clicks in the last 30 days.',
@@ -76,50 +96,6 @@ const projects = [
     categories: ['Python', 'Web', 'Github','Backend'],
     sourceCodeUrl: 'https://github.com/glugmvit/Leaderboard-backend'
   },
-  {
-    title: 'Anime Music Player',
-    img: 'https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-01-512.png',
-    description: 'A basic music player, that is anime themed. No backend only, frontend project',
-    categories: ['Frontend', 'Web'],
-    siteUrl: 'https://nandemonaiya.netlify.app/',
-    sourceCodeUrl: 'https://github.com/codewithkushagra/kiminonawa'
-  },
-  {
-    title: 'Office Manager',
-    img: '',
-    description: 'A basic office manager application made using python tkinter',
-    categories: ['Python', 'MYSQL'],
-    sourceCodeUrl: 'https://github.com/codewithkushagra/MOffice'
-  },
-  {
-    title: 'Jump On Game',
-    img: 'https://www.pygame.org/ftp/pygame-head-party.png',
-    description: 'A retro game made using pygame library in python for HACKCADE hackathon by MLH.',
-    categories: ['Python'],
-    sourceCodeUrl: 'https://github.com/codewithkushagra/MLH-hack-cade-jump-on'
-  },
-  {
-    title: 'Static Website',
-    img: 'https://www.freepnglogos.com/uploads/logo-website-png/logo-website-file-globe-icon-svg-wikimedia-commons-21.png',
-    description: 'A statistic website template using HTML and CSS',
-    categories: ['Web', 'Frontend'],
-    siteUrl: 'https://counsellingguru.netlify.app/',
-    sourceCodeUrl: 'https://github.com/codewithkushagra/counsellorPortfolio'
-  },
-  {
-    title: 'Naruto Justsu Battle',
-    img: 'https://viallyhardi.files.wordpress.com/2012/06/logo.png',
-    description: 'A opencv game based on Naruto, were you make hand signs to fight your opponent.',
-    categories: ['Python'],
-    sourceCodeUrl: 'https://github.com/codewithkushagra/NarutoJustsuBattle'
-  },
-  {
-    title: 'Instagram Scraper',
-    img: 'https://www.saashub.com/images/app/service_logos/69/5ad531841677/large.png?1566787214',
-    description: 'Scraps a insta account images and captions and compiles them into an pdf',
-    categories: ['Python'],
-    sourceCodeUrl: 'https://github.com/codewithkushagra/instascraper'
-  }
 ]
 
 const formUrl = 'http://localhost:3000'
