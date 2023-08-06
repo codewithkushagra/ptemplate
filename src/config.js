@@ -65,7 +65,7 @@ const projects = [
     title: 'Backend Intern at Convin.ai',
     img: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_9cb63377dca6779d6deed05c7cd793d5/convin-ai.png',
     description: 'Developed, maintained and deployed major features like batch processing, custom dashboard dev, and gpt lead generation, and many more.',
-    categories: ['Python', 'Web', 'Github','Backend'],
+    categories: ['Python', 'Web', 'Github','Backend', 'Docker', 'AWS'],
     sourceCodeUrl: 'https://github.com/techhub-community/csoc_platform'
   },
   {
@@ -74,6 +74,12 @@ const projects = [
     description: 'Designed Infra , developed and deployed major feature and mentored over 10 people.',
     categories: ['Python', 'Web', 'Github','Backend'],
     sourceCodeUrl: 'https://github.com/techhub-community/csoc_platform'
+  },
+  {
+    title: 'Engineering Intern at Tally Solutions',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tally_-_Logo.png/1200px-Tally_-_Logo.png',
+    description: 'Developed an email client under mentors using flutter.',
+    categories: ['Dart', 'Flutter', 'API', 'Authentication'],
   },
   {
     title: 'Backend Development Intern',
