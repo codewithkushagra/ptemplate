@@ -65,8 +65,7 @@ const projects = [
     title: 'Backend Intern at Convin.ai',
     img: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_9cb63377dca6779d6deed05c7cd793d5/convin-ai.png',
     description: 'Developed, maintained and deployed major features like batch processing, custom dashboard dev, and gpt lead generation, and many more.',
-    categories: ['Python', 'Web', 'DRF', 'Django', 'Backend', 'Docker', 'AWS'],
-    sourceCodeUrl: 'https://github.com/techhub-community/csoc_platform'
+    categories: ['Python', 'Web', 'DRF', 'Django', 'Backend', 'Docker', 'AWS']
   },
   {
     title: 'CSOC Techhub Backend Lead',
